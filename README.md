@@ -46,9 +46,33 @@ Con este informe conocemos que:
 # Obtención de acceso
 Utilizando el username encontrado en el código *html de la web* y la cadena encontrada en *robots.txt*. Accedemos como usuarios del sistema en el **Potal Login Page**:
 
-**username**: R1ckRul3s
+`username: R1ckRul3s`
 
-**password**: Wubbalubbadubdub
+`password: Wubbalubbadubdub`
 
 ![Pasted image 20230218121459](https://user-images.githubusercontent.com/24280145/222931603-18fac2c4-282a-44c7-b3c7-8ca1131fdee5.png)
+
+### Ejecutando comandos
+
+`whoami`
+
+![Pasted image 20230218122054](https://user-images.githubusercontent.com/24280145/222931694-116e2af5-70e2-4953-9cba-38fac3088d00.png)
+
+`pwd`
+
+
+![Pasted image 20230218122147](https://user-images.githubusercontent.com/24280145/222931709-50e0e38b-7484-4872-9cac-169d3a2421e5.png)
+
+`ls`
+
+![Pasted image 20230218122256](https://user-images.githubusercontent.com/24280145/222931737-3a581e02-86e7-4dac-ac5d-5e128010fe91.png)
+
+¡¡hemos hallado el primer ingrediente...¡¡ pero los comandos estan filtrados de lectura de texto, y no podemos ver el contenido del fichero que contiene el segundo ingrediente
+
+![Pasted image 20230218122725](https://user-images.githubusercontent.com/24280145/222931819-4bf64ac4-2de0-435b-a6ac-f7fe8f0ad763.png)
+
+En este escenario podemos buscar nuevas soluciones (como acceder al sistema) o buscar un comando que si funcione (no este filtrado). realizando la prueba con los comandos `more`,`head`,`vim` ... Realizando prueba y error hallamos el comando `tac`. 
+
+
+**Nota**: Para conocer los comandos de lectura de texto podemos visitar: https://www.geeksforgeeks.org/tac-command-in-linux-with-examples/
 
