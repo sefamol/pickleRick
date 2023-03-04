@@ -32,3 +32,23 @@ Buscamos directorios con extensión .php y .html  `gobuster -u http://10.10.242.
 **Nota**: La lista common.txt fue extraida de: https://gitlab.com/kalilinux/packages/dirb/blob/f43c03a2bef91118debffd6cec9573f21bb5f9e8/wordlists/common.txt
 
 Utilizamos el comando `sudo mv common.txt /usr/share/wordlists/dirbuster/common.txt` para mover el archivo a la carpeta dirbuster (no es obligatorio)
+
+![Pasted image 20230218120112](https://user-images.githubusercontent.com/24280145/222931429-c6f3160d-2b68-4314-8626-86964a4cc6de.png)
+
+Con este informe conocemos que:
+**index.html**: Es la página de inicio
+**robots.txt**: contiene la cadena *Wubbalubbadubdub*
+**login.php**: Nos muestra el siguietne acceso:
+
+
+![Pasted image 20230218121122](https://user-images.githubusercontent.com/24280145/222931472-ad4667ac-1308-471a-8f55-769c46c0aebe.png)
+
+# Obtención de acceso
+Utilizando el username encontrado en el código *html de la web* y la cadena encontrada en *robots.txt*. Accedemos como usuarios del sistema en el **Potal Login Page**:
+
+**username**: R1ckRul3s
+
+**password**: Wubbalubbadubdub
+
+![Pasted image 20230218121459](https://user-images.githubusercontent.com/24280145/222931603-18fac2c4-282a-44c7-b3c7-8ca1131fdee5.png)
+
