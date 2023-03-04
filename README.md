@@ -102,6 +102,8 @@ En el directorio `home/rick/` hallamo el segundo ingrediente
 
 ![Pasted image 20230218131156](https://user-images.githubusercontent.com/24280145/222932345-9050b2e3-5386-4c08-818e-52446d8586b4.png)
 
+**segundo ingrediente**: `jerry tear`
+
 **Revisando los permisos, hallamos que la carpeta root no es accesible para los usuarios comunes**
 
 ![Pasted image 20230218132952](https://user-images.githubusercontent.com/24280145/222932378-d22be2b1-0447-438f-81d5-419e656a7c16.png)
@@ -115,4 +117,6 @@ En este caso la solución es relativamente sencilla pues el usuario www-data pue
 **Ejecutamos bash como administrador**
 Posteriormente ingresamos a la carpeta root `cd /root` y obtenemos el 3er ingrediente
 
+![Pasted image 20230218133541](https://user-images.githubusercontent.com/24280145/222932655-ec7833ef-ecad-4ecb-a01a-92f181b2ed1d.png)
 
+**tercer ingrediente**: `fleeb juice`
