@@ -8,4 +8,6 @@ Utilizando el comando `nmap -sC -sV 10.10.242.104 -oN nmapPick` obtenemos los si
 
 **puertos abiertos
 
-**http 80**  **ssh 22**
+**http 80**  
+
+**ssh 22**
