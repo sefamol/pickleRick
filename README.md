@@ -1,6 +1,6 @@
 Pickle Rick es un CTF de nivel inicial de THM, en el cual se nos encomienda convertir nuevamente en humano a rick, que se encuentra convertido en pepinillo. Para esta tarea, debemos encontrar en la computadora de Rick los 3 ingredientes necesarios para que regrese a su estado de humano.
 
-Primero realizamos la enumeración y el reconocimiento del sistema investigado
+Primero debemo realizar la enumeración y el reconocimiento del sistema investigado.
 
 # Enumeración
 ## nmap
