@@ -7,5 +7,6 @@ Utilizando el comando `nmap -sC -sV 10.10.242.104 -oN nmapPick` obtenemos los si
 ![Pasted image 20230218112511](https://user-images.githubusercontent.com/24280145/222928607-be1992f4-4dd1-4fa3-90a8-a47f34a60522.png)
 
 **puertos abiertos
-80 http
-22 ssh
+
+**http 80
+**ssh 22
