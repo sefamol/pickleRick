@@ -30,4 +30,5 @@ Utilizando el comando `gobuster -u http://10.10.242.104 -w /usr/share/wordlists/
 Buscamos directorios con extensión .php y .html  `gobuster -u http://10.10.242.104 -t 50 -w /usr/share/wordlists/dirbuster/common.txt -x .php,.html`
 
 **Nota**: La lista common.txt fue extraida de: https://gitlab.com/kalilinux/packages/dirb/blob/f43c03a2bef91118debffd6cec9573f21bb5f9e8/wordlists/common.txt
+
 Utilizamos el comando `sudo mv common.txt /usr/share/wordlists/dirbuster/common.txt` para mover el archivo a la carpeta dirbuster (no es obligatorio)
